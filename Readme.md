@@ -18,3 +18,9 @@ paraenthsis is important in using operations the right way
 while using prefix the value is already incremented and returned before it performs increment
 
 while using postfix the value increments and returns the value after incrementing
+
+04 => function objects
+ Primitive
+ 7 types: string, Number, Boolean , null, undefined, Symbol, BigInt
+
+ is JS dynamically typed or statically => dynamically typed, as it performs checks on run time
