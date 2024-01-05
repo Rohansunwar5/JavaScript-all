@@ -31,3 +31,9 @@ while using postfix the value increments and returns the value after incrementin
 
  stack (Primitive), heap(Non-primitive)
  in stack the the variable only takes a copy of another datatype , so even if the value is changed from where the data is being refrenced , the original remains the same
+
+ 05=> strings : while using new String to decalre a string it also gives out key value pairs
+
+// the difference is when the string is initialized with new keyword js gives the facility to use different methods than the strings declared normally , its an instance of string object
+
+//While both primitiveString and stringObject may seem similar in some contexts, they have key differences. The primitive string (primitiveString) is a primitive data type, while the string object (stringObject) is an instance of the String object.
