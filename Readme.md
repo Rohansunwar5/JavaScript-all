@@ -39,3 +39,5 @@ while using postfix the value increments and returns the value after incrementin
 // the difference is when the string is initialized with new keyword js gives the facility to use different methods than the strings declared normally , its an instance of string object
 
 //While both primitiveString and stringObject may seem similar in some contexts, they have key differences. The primitive string (primitiveString) is a primitive data type, while the string object (stringObject) is an instance of the String object.
+
+07 Arrays => 
