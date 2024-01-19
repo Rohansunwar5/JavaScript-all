@@ -35,3 +35,5 @@
 - [16:58](https://youtu.be/DcjNkHtDj8A?t=1018s) 🧹 Learn to replace specific values within elements, enhancing the flexibility of content manipulation in the DOM.
 - [17:13](https://youtu.be/DcjNkHtDj8A?t=1033s) 🚀 Execute JavaScript code to dynamically change, add, or remove elements, demonstrating the power of scripting in web development.
 - [17:41](https://youtu.be/DcjNkHtDj8A?t=1061s) 📚 Understanding basic coding techniques is essential; diving into frameworks without foundational knowledge may lead to challenges in comprehension and debugging.
+
+textcontent also displays the hidden text
