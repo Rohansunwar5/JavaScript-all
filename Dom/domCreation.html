@@ -1,0 +1,112 @@
+//how to create a new element in Dom
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+  .bg-black {
+    background-color: #212121;
+    color: aliceblue;
+  }
+</style>
+</head>
+<body class="bg-black">
+  <div class="parent">
+    <div class="day">Monday</div> 
+    <div class="day">Tuesday</div> 
+    <div class="day">Wednesday</div> 
+    <div class="day">Thursday</div> 
+
+  </div>
+</body>
+<script>
+  const parent = document.querySelector('.parent')
+  // console.log(parent);
+  // console.log(parent.children);
+  // console.log(parent.children[1].innerHTML);
+
+  // for(let i =0 ; i< parent.children.length; i++){
+  //   console.log(parent.children[i].innerHTML);
+  // }
+  // parent.array.forEach((e) => {
+  //   console.log(e);
+  // });
+
+  // parent.children[1].style.color = 'violet';
+  // console.log(parent.firstElementChild); returns the first child element 
+  // console.log(parent.lastElementChild); returns the last child element 
+
+  const day1= document.querySelector('.day')
+  // console.log(day1);
+  // console.log(day1.parentElement); // returns all the parent and its child 
+  // console.log(day1.nextElementSibling);
+  console.log("NODES ",parent.childNodes);
+
+</script>
+</html>
+
+<!-- The video discusses creating a new element in the Document Object Model (DOM) using JavaScript.
+The speaker expresses gratitude for the positive response to the previous video.
+Feedback from viewers is encouraged to determine whether the series should continue.
+Understanding the Document Object Model (DOM) thoroughly is emphasized for success in interviews.
+The upcoming video will cover parent-child relationships and elements like reconciliation in React.
+The video will demonstrate how to generate and remove new elements in the DOM using scripting.
+Basic HTML file setup is briefly mentioned for the upcoming demonstration.
+To create a new element in the DOM, first, select the parent element where the new element will be added.
+Determine the type of element to be added (e.g., div) and assign it a name.
+Decide on the class for the new element, either parent or child class, based on preference.
+Plan the schedule for adding values (e.g., Monday, Tuesday, Wednesday).
+Open the element on the live server and apply styling, such as background color (e.g., #2121) to enhance visibility.
+Use developer tools to inspect and troubleshoot elements; ignore errors related to extensions.
+Utilize jQuery's simple parent selection (e.g., parent = $(".parent")) and find the number of child elements within it.
+Explore the interesting property of the parent element to count its children.
+To access an element using JavaScript, you need to identify its parent class or HTML collection.
+Use the parent element's properties, such as innerHTML, to manipulate or retrieve information.
+Adding a child element within a parent element is achieved by understanding the HTML structure and using appropriate methods.
+Loop through HTML collections using JavaScript to work with multiple elements efficiently.
+The parent-child relationship allows for convenient styling and modification of specific elements.
+Utilize the properties within the parent element to access and manipulate child elements.
+Understand the order of elements and use appropriate methods for effective manipulation.
+Explore properties within parent elements beyond children for additional information and customization.
+Key takeaway
+The video discusses selecting and manipulating elements in the DOM using JavaScript.
+Demonstrates accessing parent and child elements using querySelector.
+Highlights properties like firstElementChild and lastElementChild for selecting specific child elements.
+Introduces the use of querySelector to simplify element selection.
+Emphasizes the importance of optimizing operations for better performance.
+Explains traversing the DOM tree efficiently by accessing parent and next sibling elements.
+The video discusses creating new elements in the Document Object Model (DOM) using JavaScript.
+It explores selecting elements and manipulating them using the console.
+The console displays parent and child nodes, providing insights into the DOM tree structure.
+The concept of parent-child relationships is essential for understanding the DOM structure.
+The discussion involves the Document Object Model (DOM) tree structure and the importance of efficient scripting for web optimization.
+Understanding the hierarchy of parent and child elements is crucial for effective DOM manipulation.
+The video emphasizes the significance of inspecting the DOM structure for React developers contributing to open-source projects.
+Child nodes play a crucial role in React, especially when dealing with memory manipulation and open-source contributions.
+React developers are advised to explore behind-the-scenes handling of child nodes for effective contributions and issue resolution.
+The tutorial is about creating a new element in the Document Object Model (DOM) using JavaScript.
+The speaker discusses understanding parent-child and sibling relationships in the DOM.
+A new HTML file is created, and basic structure with <html> and <body> tags is set up.
+The tutorial demonstrates how to create an element programmatically using JavaScript within the <script> tag.
+The example involves creating an <h1> element and setting its attributes (class and id) using JavaScript.
+The tutorial introduces the concept of using Math library functions, such as Math.random(), to generate random values.
+The generated random value is then manipulated and applied to the created element.
+Note: The text was in Hindi, and some parts might not be accurately translated due to the limitations of language translation models.
+
+Creating a new element in the DOM involves generating a new ID and preventing the occurrence of zero elements.
+The tutorial suggests using a library and demonstrates rounding off an element.
+Explains inserting a random ID into the database and generating random IDs in the database.
+Discusses selecting and styling attributes, focusing on setting the background color using the style method.
+Emphasizes the importance of attaching the element to the page for display, clarifying that it should be attached to the document.
+Demonstrates setting attributes using the setAttribute method and mentions the preference for using the ID attribute over class for better control.
+Explains the direct method of setting attributes and mentions the efficiency of using the direct method for inner text.
+Highlights the significance of selecting and setting values, emphasizing the advantages of using the direct method for efficiency.
+Provides a code example of creating a text node for the value of an attribute.
+The speaker demonstrates creating a text notification with "chai aur code" in the inner text.
+The text notification is appended to the document body using JavaScript.
+The process involves creating a new element (div) and setting its inner text.
+The speaker discusses the debate between directly writing inner text and using the appendChild method.
+A loop can be employed to set styles, such as background color, for the newly created elements.
+The tutorial aims to help viewers understand DOM manipulation and gain confidence in coding each line step by step. -->
