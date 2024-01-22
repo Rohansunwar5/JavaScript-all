@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Events</title>
+</head>
+<body style="background-color: #414141; color: aliceblue;">
+  <h2>Amazing IMages</h2>
+  <ul id="images">
+    <li><img width="200px"  id="photoshop" alt="photoshop" src="https://images.unsplash.com/photo-1683009427500-71296178737f?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></li>
+    <li>
+      <img width="200px" id="mountain" alt="Mountain landscape" src="https://images.unsplash.com/photo-1682686578023-dc680e7a3aeb?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    </li>
+    <li>
+      <img width="200px" id="cityscape" alt="City skyline at night" src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    </li>
+    <li><a style="color:aliceblue" href="https://google.com" id="google">Google</a></li>
+  </ul>
+</body>
+<script>
+  // by using addEventListner we can propagate the elements and also has many features 
+  // the third pararmeter of addEventListner is true or false, by default it reamins false but sometimes some task default value is true and in order to run it we have to decalre false 
+  // attachEvent also is another approach
+  // jQuery - onEventListner
+  // these are the eventaction features are function we can perform after we add an evenet listner 
+  //type, timestamp, defaultPrevented
+  //target, toElement, srcElement, currentTarget, 
+  //clientX, clientY, screenX, screenY
+  // altkey, cltrKey, shiftkey, keycode
+  
+  // there are two context in event propagation, ine is event bubbling and another is event capturing, the projects which use mostly are by default false and are called event bubbling, but in some cases we have to use event capturing also 
+  // document.getElementById('images').addEventListener('click', (e) => {
+  //   console.log("Clicked inside the ul");
+  // },false)
+  // document.getElementById('cityscape').addEventListener('click', (e) => {
+  //   console.log("Owl clicked");
+  //   e.stopPropagation();
+  // },false)
+
+  // document.getElementById('google').addEventListener('click', (e) => {
+  //   console.log('Google clicked');
+  //   e.preventDefault();
+  //   e.stopPropagation();
+  //   //when preventDefault is used it doen't allow you ti navigate
+  // })
+
+  // false =>now when we click in the owl we first get owl clicked, then clikced inside the ul -> this propagation is callled evenet bubbling up where the inside part execute then the outer parts gets executed
+  // in case of true => outer gets executed first (event capturing )
+  // in cases where we want to seperate the events inside and prevent it from bubbling, we use e.stopPropagation();
+
+  document.querySelector('#images').addEventListener('click', (e) => {
+    console.log(e.target.parentNode);
+    console.log(e.target.tagName);
+    //target specifies the element that is clicked and is diffrentied from the other elements 
+    //parent specifies the clicked element node 
+    if(e.target.tagName === 'IMG'){
+      console.log(e.target.id);
+      let removeit = e.target.parentNode;
+      removeit.remove();
+    }
+    // removeit.parentNode.removeChild(removeit);
+
+  },false)
+</script>
+</html>
