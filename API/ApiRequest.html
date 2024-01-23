@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body style="background-color: #212121; color: antiquewhite;">
+  <button id="data">Data</button>
+  <div class="display"></div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const display = document.querySelector('.display');
+      const requestUrl = 'https://api.github.com/users/Rohansunwar5';
+      const xhr = new XMLHttpRequest();
+      xhr.open('GET', requestUrl);
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+          // Convert the string to JSON
+          const data = JSON.parse(this.responseText);
+          let followers = data['followers'];
+          let id = data['id'];
+          let avatar = data['avatar_url'];
+
+          const btn = document.querySelector('#data').addEventListener('click', () => {
+            display.innerHTML = `
+              <img src="${avatar}" alt="Avatar"> <br>
+              <p>Followers: ${followers}</p> <br>
+              <p>ID: ${id}</p> <br>
+            `;
+          });
+        }
+      };
+      xhr.send();
+    });
+  </script>
+</body>
+</html>
