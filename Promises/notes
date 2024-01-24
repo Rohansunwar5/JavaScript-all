@@ -1,0 +1,404 @@
+Promises object represents the eventual completion or failure on an asynchronus operations
+
+Promises has three states 
+1.pending 
+2.rejected
+3.fulfiled
+
+
+
+00:00 📚 Overview of the Series and Learning Approach
+
+Introduction to the JavaScript series with a focus on clear foundations.
+The importance of completing courses without leaving gaps in knowledge.
+The presenter's commitment to thoroughly researching and presenting concepts.
+00:42 🚀 Acceleration after Clearing JavaScript Foundations
+
+Emphasis on clearing the foundational concepts before diving into advanced topics.
+The promise of rapid progress in Rocket speed, back-end, mobile development, and React.
+The presenter's assurance of completing the JavaScript series with a detailed exploration of each concept.
+01:09 📖 Understanding Promises in JavaScript
+
+Introduction and exploration of the concept of promises in JavaScript.
+Brief history and significance of promises.
+Connecting promises to concepts like dot then, dot catch, and the use of asynchronous fetch requests.
+01:51 🧩 Building Blocks of Promises: Browser Diagrams and Network Calls
+
+Explanation of browser diagrams, network calls, and browser APIs.
+Connecting promises to understanding behind-the-scenes of fetch.
+Importance of comprehending promises to understand behind-the-scenes of asynchronous actions like behind-the-scenes DCN (Delay Conductor Node) calls.
+02:33 🕵️ Understanding Promises: Introduction and Basics
+
+Introduction to promises in JavaScript.
+Explanation of the Promise object representing asynchronous operations.
+Highlighting the concepts of asynchronous completion, failure of an operation, and the resulting value.
+03:00 📜 Promise Basics: Representation and Meaning
+
+Discussion on the representation of promises and their meaning.
+Explanation of promises as objects representing eventual completion or failure of an asynchronous operation.
+Simplified interpretation of a promise as a task that is not yet completed or loaded.
+03:41 🔄 Operations within Promises: Real-world Examples
+
+Illustration of various operations that can occur within promises.
+Insight into common scenarios such as network requests, file access, and cryptographic operations.
+Emphasis on the cumulative nature of operations, with examples from real-world programming scenarios.
+04:53 🚀 Overview of Promises: Basics and Use Cases
+
+Introduction to the concept of promises in JavaScript.
+Mention of the performance aspects and use cases of promises.
+Brief overview of scenarios such as graphic operations, network requests, file systems, and their relevance in mobile development.
+05:33 🤔 Understanding Promise States: Pending, Fulfilled, Rejected
+
+Explanation of the three states of promises: Pending, Fulfilled, and Rejected.
+Recognition of the significance of handling pending, fulfilled, and rejected states.
+Insight into the role of pending, fulfilled, and rejected states in asynchronous operations.
+06:15 🛠️ Creating Promises: Syntax and Structure
+
+Demonstration of creating promises in JavaScript.
+Explanation of the syntax and structure of promises.
+Mention of various operations like delete and fetch, emphasizing the promise's role in handling asynchronous tasks.
+07:10 🔄 Building Promises: Step-by-Step Guide
+
+Step-by-step guide on building promises in JavaScript.
+Introduction to variables and their role in the promise creation process.
+Emphasis on understanding and learning to create promises to effectively handle asynchronous tasks.
+07:24 📚 Understanding Promises: Basics and Object Representation
+
+Introduction to the basics of promises in JavaScript.
+Explanation of promises as objects with inherent properties.
+Highlighting the significance of recognizing promises as objects for effective use.
+07:52 🛠️ Creating Promises: Instances and Syntax
+
+Explanation of creating promise instances using the "new" keyword.
+Demonstration of the syntax and structure of creating promises.
+Comparison of creating promise instances with class instances using "new."
+08:22 📜 Historical Context: Evolution of Promises in JavaScript
+
+Historical overview of the evolution of promises in JavaScript.
+Mention of early libraries like Bluebird and how they provided promise functionality.
+Insight into developers' practices before native promise support in JavaScript.
+09:05 🔄 Transition to Native Promises: Benefits and Integration
+
+Explanation of the transition to native promises in JavaScript.
+Recognition of the benefits native promises bring to developers.
+Mention of libraries like Bluebird and how they seamlessly integrated promise functionality into JavaScript.
+09:45 🚀 Native Support for Promises and Performance Considerations
+
+Explanation of native support for promises in JavaScript after ES6.
+Discussion on whether external promise libraries like Bluebird are necessary with native support.
+Insights into the performance considerations when using native promises compared to libraries.
+10:12 🏋️ Performance of Native Promises vs. Libraries
+
+Comparison of the performance between native promises and external libraries.
+Mention of the performance benchmarks and considerations when using native promises.
+Emphasis on the powerful features provided by native promises, rendering external libraries less necessary.
+10:38 💻 Exploring Bluebird Library Features
+
+Encouragement to explore the source code and features of the Bluebird library.
+Acknowledgment of historical practices where developers installed external libraries to enhance JavaScript capabilities.
+Clarification that the Bluebird library is still available for those interested in its features.
+11:21 📜 Historical Perspective and Importance of Understanding Legacy Code
+
+Reflection on the importance of understanding historical perspectives and practices in coding.
+Discussion on the evolution of promises and practices in JavaScript.
+Encouragement for developers to delve into legacy code to gain valuable language knowledge.
+11:35 🛠️ Creating Promises: Concept of Consumption and Creation
+
+Explanation of the two parts involved in promises: consumption and creation.
+Insight into understanding creation and consumption concepts in promises.
+Teaser for the next video where fetching data and more details about behind-the-scenes will be discussed.
+12:02 🔄 Understanding Promise Functions: Resolve and Reject
+
+Explanation of the two basic parts of promise functions: resolve and reject.
+Insight into the completion of a promise, whether it is fulfilled or rejected.
+Mention of potential challenges and scenarios related to promises.
+12:31 📅 Future Plans and Subscriber Engagement
+
+Discussion on the potential future plans for the series and engagement with subscribers.
+Mention of challenges, like deciding whether to continue or pause the series based on audience response.
+Encouragement for viewers to subscribe and engage with the content.
+12:59 ⚙️ Tasks and Use Cases for Async Functions
+
+Explanation of various tasks and use cases for asynchronous functions.
+Examples of tasks such as database calls, data injection, and cryptographic operations.
+Insight into the flexibility of async functions for handling different types of tasks.
+13:27 🛠️ Implementation of a Timer using Async Functions
+
+Demonstration of implementing a timer using async functions.
+Explanation of setting a timer to execute a function after a specified time.
+Introduction to the concept of execution tasks after a set timeout using async functions.
+13:54 🧩 Connecting Resolve and Reject: Promise Consumption
+
+Overview of connecting resolve and reject using promise consumption.
+Explanation of handling the completion of a promise using the then() method.
+Teaser for the next video where the details of connecting and consuming promises will be discussed.
+14:37 🔄 Connecting Resolve and Consumer: Understanding Behind the Scene
+
+Introduction to the connection between resolve and the promise consumer using the dot then (.) notation.
+Explanation of the auto-received argument by the function inside the then method.
+Insight into how values are returned, locked, and consumed within promise resolution.
+15:23 🛠️ Implementing Promise Consumer and Handling Completion
+
+Demonstration of implementing a promise consumer using the then method.
+Explanation of handling completion tasks within the consumer.
+Introduction to the concept of waiting for one second before the completion of the task.
+15:51 🔄 Properly Connecting Resolve: Utilizing the resolve method
+
+Overview of the resolve method and its parameters.
+Explanation of how the resolve method connects to the promise.
+Demonstration of running and testing the resolution process.
+16:32 ⏰ Understanding Promise Completion and Consumer Execution
+
+Explanation of promise completion and the execution of the promise consumer.
+Demonstration of how the promise consumer runs only after the completion of the task.
+Insight into the sequential execution of tasks involving promises.
+17:19 🔄 Resolving and Rejecting: Handling Set Timeout within Promise
+
+Explanation of the set timeout within promises for resolving and rejecting.
+Demonstration of using the set timeout function to simulate asynchronous behavior.
+Overview of the setTimeout method and its role in handling asynchronous tasks within promises.
+17:34 🔄 Handling Multiple Tasks: Task Completion and Resolve
+
+Introduction to handling multiple tasks within promises.
+Explanation of the completion of the asking task and initiating resolve.
+Demonstrates the sequential execution of tasks within a promise.
+18:24 🔄 Directly Handling Resolve: Using Resolve within the Dot Then notation
+
+Explanation of directly handling resolve without storing in a variable.
+Implementation of the resolve method within the dot then notation.
+Demonstration of the syntax for handling resolve in a simplified manner.
+18:53 🔄 Chaining Promises: Creating and Chaining Multiple Promises
+
+Overview of creating and chaining multiple promises.
+Demonstration of creating a second promise and chaining it after the first one.
+Explanation of how to use the dot then notation for chaining promises.
+19:49 🔄 Creating and Testing a Third Promise
+
+Introduction to creating and testing a third promise.
+Explanation of the resolve and reject functions within the third promise.
+Demonstration of the syntax for testing the resolve and reject functions.
+20:02 🔄 Basics of Resolving and Rejecting: Syntax and Testing
+
+Overview of the basic syntax for resolving and rejecting promises.
+Demonstration of the syntax for writing functions inside resolve and reject.
+Testing the resolve and reject functions to ensure proper promise functionality.
+20:16 🔄 Handling Timeout and Network Connection
+
+Explanation of resolving directly connected promises within the dot then notation.
+Addressing concerns about setting a timeout for every network request.
+Introduction to handling timeouts effectively without causing network issues.
+21:00 🔄 Using Resolve Function: Passing Data and Parameters
+
+Demonstrating the use of the resolve function and passing data within it.
+Explanation of parameters in the resolve function and passing an object.
+Illustrating how to handle and extract data passed in the resolve function.
+21:54 🔄 Consuming Resolved Data: Accessing Object Values
+
+Overview of consuming resolved data, specifically accessing object values.
+Explanation of accessing and using properties from the resolved object.
+Illustrating the process with an example of extracting user-related data.
+22:35 🔄 Creating Multiple Promises: Introduction to the Fourth Promise
+
+Introduction to creating a fourth promise in the sequence.
+Building on the concept of chaining promises one after the other.
+Teasing upcoming lessons and concepts to be covered in the fourth promise.
+23:04 🔄 Implementing Timeout Function with Promises
+
+Explanation of integrating a set timeout function within promises.
+Setting the timeout duration and linking it with the reject function.
+Handling errors and conditions when a timeout occurs.
+24:09 🔄 Resolving and Passing Data in Promises: Practical Example
+
+Demonstrating the resolve function within promises.
+Passing an object with user-related data in the resolve function.
+Explaining the process of resolving and accessing data from promises.
+24:53 🔄 Handling Errors in Promises: Introduction to Reject Function
+
+Introduction to the reject function and error handling in promises.
+Explaining the role of reject in scenarios like network requests or file access.
+Illustrating the use of conditional checks for error handling in promises.
+25:20 🔄 Chaining Promises: Utilizing the Catch Function
+
+Introduction to chaining promises using the catch function.
+Declaring functions within catch to handle errors effectively.
+Clarifying the syntax and providing insights into the catch function.
+25:54 🔄 Restructuring Returned Data: Introduction to Destructuring
+
+Explanation of restructuring returned data using destructuring.
+Demonstrating how to selectively extract values from the resolved promise.
+Introducing the concept of destructuring within a longer scenario, considering various use cases.
+26:37 🔄 Handling Promises in Complex Scenarios: Error Origin and Syntax Exploration
+
+Analyzing scenarios where errors occur in promises and the role of the catch function.
+Identifying the syntax issues in handling asynchronous operations within promises.
+Discussing the challenges faced when extracting data in specific situations and proposing solutions.
+27:51 🔄 Utilizing Arrow Functions for Concise Code: Advanced Syntax Explanation
+
+Explanation of using arrow functions in promises for concise code.
+Understanding the syntax and benefits of arrow functions in promise scenarios.
+Applying arrow functions to enhance readability and simplicity in promise-related code.
+28:18 ⚙️ Handling Promise Rejection: Advanced Error Handling
+
+Explanation of handling errors in promises and the need for a catch function.
+Demonstrating the implementation of catch to manage asynchronous errors.
+Addressing scenarios where errors are encountered, ensuring effective error handling.
+29:28 🔄 Perfecting Syntax for Improved Readability: Syntax Exploration
+
+Discussing syntax improvements for cleaner code presentation.
+Demonstrating alternatives for chaining dot notation and catch, highlighting readability.
+Exploring syntactical choices for organizing and enhancing code legibility.
+30:34 ⚡ Optimizing Promise Resolution: Finalizing Code
+
+Finalizing the code by resolving promises and handling errors.
+Emphasizing the importance of resolving promises appropriately.
+Addressing potential scenarios where promise resolution may require careful consideration.
+30:49 ⏱️ Setting Time Limits on Promises: Execution Duration
+
+Explanation of the time limitations on promises and the need for asynchronous execution control.
+Highlighting the default behavior of promises to almost always execute, regardless of the execution time.
+Demonstrating the direct handling of timeout using set-timeout and discussing practical scenarios.
+31:58 🔄 Syntax and Usage of Promise.finally(): Enhancing Code Structure
+
+Introduction to Promise.finally() and its role in code finalization.
+Syntax exploration and implementation of Promise.finally() for cleaner and structured code.
+Emphasizing the ease of understanding and readability achieved by using Promise.finally().
+32:29 🔢 Introduction to Promise.race() and Promise.all(): Advanced Promise Handling
+
+Overview of Promise.race() and Promise.all() for handling multiple promises concurrently.
+Implementation of Promise.race() to resolve or reject based on the first settled promise.
+Implementation of Promise.all() to handle an array of promises simultaneously, understanding their differences.
+33:27 🌐 Real-world Application of Promises: Live Class Scenario
+
+Real-world scenario illustrating the use of promises in a live class setting.
+Handling asynchronous operations with promises in a practical teaching scenario.
+Addressing and resolving student concerns related to promises and asynchronous handling.
+33:41 🔄 Best Practices for Handling Promises: .catch() vs .then()
+
+Discussion on the common practice of using .catch() for handling promise rejections.
+Explanation of the debate between using .catch() and .then() for promise rejection handling.
+Emphasis on the graceful handling of promises, considering scenarios like database connections.
+34:11 ⏳ Graceful Timeout Handling with Promise.reject()
+
+Introduction to an alternative approach for handling promise rejection gracefully.
+Syntax and implementation of Promise.reject() for managing asynchronous operations and timeouts.
+Comparison with traditional wait mechanisms and showcasing the elegance of Promise.reject().
+34:52 🛠️ Advanced Error Handling with Promise.catch()
+
+Deep dive into advanced error handling using Promise.catch() with a more graceful syntax.
+Demonstrating how to handle errors gracefully without using .then() for promise resolution.
+Highlighting the importance of cleaner code structure and avoiding unnecessary wait mechanisms.
+35:34 🚧 Debugging Issues: Unexpected Behavior
+
+Identification and troubleshooting of a syntax-related issue within the catch block.
+Realization of a basic syntax error within the code block during asynchronous handling.
+Debugging process to resolve the unexpected behavior and correcting the syntax for proper execution.
+36:01 🔄 Revision and Concluding Remarks
+
+Overview of the written code and revisiting the sync function.
+Introduction to the concept of consuming promises using the .then() method.
+Discussion on handling errors and the importance of understanding promise objects.
+36:47 🤔 Exploring Promise.resolve() Behavior
+
+Explanation of the behavior of Promise.resolve() within an asynchronous function.
+Demonstrating how Promise.resolve() handles values inside the resolved promise.
+Understanding the difference between direct consumption and using Promise.resolve().
+37:29 🔍 Handling Errors in Network Requests
+
+Addressing the issue of error handling in asynchronous operations, specifically in network requests.
+Recognizing the importance of handling errors gracefully in network-related code.
+Exploring the challenges associated with direct error handling in asynchronous network calls.
+38:12 🧠 Advanced Error Handling Techniques
+
+Introduction to advanced error-handling techniques using Promise.reject() and try...catch.
+Illustrating how rejection handling in Promise.reject() helps in explicit error management.
+Emphasizing the need for a comprehensive try...catch block to catch unexpected errors.
+38:40 🚧 Implementing Graceful Error Handling in Network Requests
+
+Implementation of a try...catch block for handling errors in asynchronous operations.
+Demonstrating the graceful handling of errors within the catch block.
+Highlighting the flexibility of syntax choices between try...catch and async/await.
+39:22 🔄 Experimenting with Different Response Types
+
+Experimenting with different response types, including the use of fetch for external API calls.
+Introduction to creating a library for handling asynchronous operations with a variety of responses.
+Discussing the versatility of handling responses from various sources.
+39:50 🔍 Understanding Response Handling in Library Design
+
+Introduction to designing a library for handling asynchronous operations.
+Analyzing the internal details of the library, such as handling JSON responses.
+Preview of the upcoming class and a glimpse into the behind-the-scenes of asynchronous functions.
+40:46 🌐 Fetching Data using the Library
+
+Fetching data using the designed library to make network requests.
+Exploring the fetch function, understanding its parameters, and handling promises.
+Discussing the asynchronous nature of network requests and the expected time delay in receiving responses.
+41:00 🔄 Converting Response Data to JSON
+
+Introduction to handling response data in the response variable.
+Discussing the necessity of converting the response to JSON format.
+Directly creating a JSON object and handling data types for effective data extraction.
+41:42 🤔 Troubleshooting and Debugging Response Issues
+
+Identifying and troubleshooting issues related to values not appearing in the response.
+Addressing the need to clean up the code and run tests to understand the problem.
+Demonstrating the debugging process to resolve the mismatch in received values.
+42:37 ⚡ Optimizing Promise Handling for Efficient Execution
+
+Optimizing the handling of promises for more efficient execution.
+Discussing the importance of handling promises, catches, and waits appropriately.
+Emphasizing the need for a well-structured try...catch block for effective error handling.
+43:05 🕰 Understanding Time Considerations in Asynchronous Operations
+
+Addressing the misconception around time considerations in asynchronous operations.
+Reminding viewers about the variety of factors that may contribute to execution time.
+Highlighting the necessity of understanding which parts of the code may cause delays.
+43:45 🔄 Converting Response Data Format
+
+Demonstrating the need to convert the response format from plain text to JSON.
+Identifying the format issue in the printed response and the necessity of conversion.
+Highlighting the syntax and method for converting response data to JSON.
+44:13 🛠 Debugging and Addressing Conversion Delays
+
+Identifying the delay issue in converting the response JSON format.
+Addressing the problem of response format conversion and its impact on execution time.
+Explaining the need to optimize and handle the conversion process efficiently.
+44:56 ⚡ Implementing Error Handling with try...catch
+
+Discussing the syntax of try...catch and its implementation for error handling.
+Emphasizing the importance of properly structuring the try...catch block.
+Demonstrating how to integrate try...catch to handle errors effectively.
+45:52 🔄 Writing a Function for Response Handling
+
+Introducing the process of writing a function to handle response data.
+Describing the return mechanism for successful responses and error handling.
+Emphasizing the flexibility of handling various types of responses within the function.
+46:22 🚀 Resolving Error Handling and Direct Response Display
+
+Implementing error handling using try...catch and displaying errors in the console.
+Explaining the role of the return statement in the function and clarifying the responsibility for handling the response JSON.
+Demonstrating the direct display of the response data in the console.
+46:52 🔧 Configuring Data Retrieval from the Response
+
+Configuring the function to handle the response data.
+Describing the structure of the response data and explaining the role of the data variable.
+Clarifying the use of console.log to display the received data.
+47:05 ⏰ Managing Asynchronous Code Execution
+
+Highlighting the asynchronous nature of fetching data.
+Discussing the significance of managing asynchronous operations without unnecessary wait time.
+Emphasizing the importance of understanding when the function will start executing.
+47:33 🤔 Teaser for the Next Video: Handling High Data Volume
+
+Providing a teaser for the upcoming video regarding handling a large volume of data.
+Mentioning challenges related to data visualization and explaining the need for further explanation in the next video.
+Encouraging viewers to stay tuned for more practical insights.
+48:14 📊 Previewing Initial Data Fetch and Visualization
+
+Demonstrating the initial successful data fetch using asynchronous operations.
+Previewing the fetched data and emphasizing the need for clarity in understanding the data structure.
+Highlighting the importance of efficient code execution and showcasing the initial steps in data visualization.
+49:12 🤔 Exploring the Delay and Behind-the-Scenes Workings
+
+Discussing the delay in execution and waiting time in asynchronous operations.
+Teasing the upcoming discussion on behind-the-scenes workings.
+Encouraging viewers to stay tuned for a deeper exploration of the topic.
