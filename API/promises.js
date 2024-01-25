@@ -104,13 +104,37 @@ consumePromiseFive();
 // }
 // getAllUsers();
 
-fetch('https://api.github.com/users/Rohansunwar5')
-.then((response) => {
-  return response.json();
-})
-.then((data) => { // chaining with upper then response 
-  console.log(data);
-})
-.catch((err) => {
-  console.log(err);
-})
+// fetch('https://api.github.com/users/Rohansunwar5')
+// .then((response) => {
+//   return response.json();
+// })
+// .then((data) => { // chaining with upper then response 
+//   console.log(data);
+// })
+// .catch((err) => {
+//   console.log(err);
+// })
+
+const dummydata = async() => {
+  try {
+    let data = await fetch('https://dummyjson.com/products/1');
+    let response = await data.json();
+    console.log(response);
+    
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+dummydata();
+
+// fetch('https://dummyjson.com/products/1')
+// .then((res) => {
+//   return res.json();
+// })
+// .then((whateverTheVariabeName) => {
+//   console.log(whateverTheVariabeName);
+// })
+// .catch((error) => {
+//   console.log(`Error: ${error}`);
+// }) 

@@ -1,0 +1,160 @@
+ 🍵 Introduction and Channel Promotion
+
+Introduction to the chai and JavaScript series.
+Encouragement to subscribe, like, and share the video.
+Mention of sharing videos of other teachers and the importance of engagement.
+01:09 🤔 Exploring Promise and Handling Async Operations
+
+Discussion on understanding values in JavaScript.
+Exploring how values are handled behind the scenes.
+Highlighting the importance of handling promises and exploring try-catch blocks.
+01:37 🚀 Exciting Feature: Fetch in JavaScript
+
+Introducing the exciting feature of fetch in JavaScript.
+Teasing the audience that after this video, they will understand fetch.
+Mentioning the impact and significance of the fetch feature within the context of web requests.
+02:33 ☕ Fetch Introduction and Future Insights
+
+Introduction to the fetch API in JavaScript.
+Teasing that the audience will understand fetch after this video.
+Mentioning the extraordinary programs and the significance of JavaScript.
+03:03 🚀 Fetch Parameters and Reading Articles
+
+Explaining the parameters of the fetch function.
+Discussing the internal details of the response, resolve, and reject.
+Promising a detailed exploration of fetch parameters and blog article reading.
+03:30 📅 Historical Context and the Evolution of Fetch API
+
+Providing historical context around fetch API development.
+Mentioning notable events and changes in the web development landscape.
+Encouraging viewers to explore the backstory of the fetch API.
+04:09 📜 Exploring Request Formats and Libraries
+
+Discussing different request formats, including XML and HTML.
+Exploring libraries and frameworks related to fetch API.
+Highlighting the significance of understanding various request formats.
+04:37 🛠️ Challenges and Solutions in Fetch API Development
+
+Addressing challenges in fetch API development.
+Discussing the difficulties in tracking multiple status codes.
+Introducing the concept of synchronous behavior and its challenges.
+05:06 🌐 Future of Fetch API and Async Success Handling
+
+Speculating on the future of fetch API.
+Introducing the concept of async success handling in fetch API.
+Highlighting the importance of the fetch API in modern web development.
+05:20 🚫 Challenges in Fetch Implementation and Syntax
+
+Discussing the reluctance towards writing XML syntax in JavaScript.
+Highlighting the need for detecting failures and errors in the fetch API.
+Explaining the historical context of the fetch API's evolution.
+06:03 📚 Browser Dependency and About Controller Interface
+
+Addressing browser availability and its impact on fetch API implementation.
+Introducing the About Controller interface and its role.
+Explaining the challenges of heavy dependencies on the web and browser.
+06:44 ⚙️ Syntax and Implementation of Fetch API
+
+Demonstrating the syntax of using fetch API with the global fetch method.
+Discussing the benefits and syntax simplicity compared to other methods.
+Emphasizing the avoidance of unnecessary syntax and focusing on the fetch method.
+07:11 🔄 Promise Handling in Fetch API
+
+Explaining the global fetch method as a process starter for network requests.
+Discussing the promise returned by fetch and the decision-making process.
+Recapping the resolve and reject outcomes in the promise returned by fetch.
+07:39 🚦 Handling Errors and Response Status in Fetch
+
+Clarifying the scenarios where errors are encountered in fetch requests.
+Emphasizing that errors are received in the catch block.
+Discussing the diverse status codes and their implications in network requests.
+08:09 🔄 Customizing Fetch Requests with Headers and Options
+
+Explaining the global space for workers in Windows and its relevance.
+Discussing the confusion around additional parameters in fetch requests.
+Showcasing examples of customizing requests with headers, CORS, and various options.
+08:51 📑 Documentation Insights for Fetch Requests
+
+Encouraging viewers to read detailed documentation for fetch requests.
+Highlighting the significance of understanding headers, options, and request parameters.
+Demonstrating how to navigate and explore specific sections in the documentation for better implementation.
+09:19 📘 Implementation Reference and Specifications
+
+Directing viewers to the Fetch API documentation for browser implementation details.
+Clarifying the importance of reading specifications for understanding request handling.
+Assuring that syntax, URL structure, and specifications for various scenarios are available in the documentation.
+10:01 🔄 Understanding the Basics of Fetch in JavaScript
+
+Introduction to the key concepts of the Fetch API.
+Discussing the relevance of understanding how fetch works, especially during asynchronous operations.
+Highlighting the minimalization of browser details for a more focused discussion.
+10:30 🌐 Global Execution Context and Function Execution Context
+
+Explaining the global and functional execution contexts in the JavaScript engine.
+Describing the execution of functions and their placement in the execution stack.
+Demonstrating the automatic creation of the execution context and the event loop's continuous checking process.
+11:12 ⏰ Task Scheduling and Event Loop
+
+Introducing the concept of task scheduling and the event loop in JavaScript.
+Discussing how tasks are registered, scheduled, and executed within the event loop.
+Emphasizing the importance of understanding the event loop for efficient code execution.
+11:56 🚀 Unveiling the Power of Browser Web APIs
+
+Recognizing the extensive capabilities of browser Web APIs.
+Acknowledging the browser's ability to leverage features beyond JavaScript's limitations.
+Hinting at the continuous advancements and additional powerful features browsers are expected to incorporate.
+12:25 🕰️ Understanding Microtasks and Priorities in Fetch API
+
+Explanation of microtasks, specifically in the context of the Fetch API.
+Highlighting the special nature of microtasks and their default name, "microtask queue."
+Discussing the variations in naming conventions across different resources and the importance of understanding priorities.
+13:06 🔍 Visualizing Fetch Execution and Microtask Queue
+
+Visualizing the execution flow of the Fetch API and microtask queue.
+Discussing the significance of prioritization in microtask queue processing.
+Demonstrating how the microtask queue and event loop contribute to efficient handling of tasks.
+13:49 🔄 Result Handling in Fetch and Microtask Queue Priority
+
+Explaining the result handling process in Fetch and the priority of microtasks in the microtask queue.
+Illustrating scenarios where the result is delivered based on the timing and priority.
+Emphasizing the importance of timing and prioritization in the Fetch API and microtask queue interaction.
+14:31 🌐 Internal Division of Fetch Implementation: Browser vs. Native
+
+Discussing the internal division of Fetch implementation into browser (web) and native (node) parts.
+Explaining the debate between web browser and native implementation, acknowledging their similarities.
+Highlighting the commonality in the approach to handling repair requests and reserving space in variables and memory.
+14:59 📝 Understanding Promise Resolving and Rejection
+
+Explanation of the Yellow Promise and its role in reserving space in memory.
+Differentiating between "onFulfilled" and "onRejected" functions in promises.
+Highlighting the privacy of fields and how they impact access and data handling.
+15:54 🔐 Access Control in Web Browser and Node Environment
+
+Discussing Mr. Green's function in web browsers and the note-based environment.
+Explaining the role of web browsers or notes in handling network requests.
+Emphasizing the access control limitations and private fields in these environments.
+16:49 🔄 Handling Network Requests and Response
+
+Outlining the process of handling network requests and the possible outcomes.
+Differentiating between scenarios where the request is fulfilled or rejected.
+Explaining how data from network requests is processed in the "onFulfilled" and "onRejected" functions.
+17:02 🌐 Interaction Between Actual Data and Memory
+
+Describing the interaction between actual data, memory, and the fulfillment of promises.
+Illustrating how values in the full field of data are accessed and utilized.
+Highlighting the responsibility of the "onFulfilled" function to fulfill and handle the data.
+17:30 📚 Overview of Promises in JavaScript
+
+Explanation of various concepts like resolve, reject, and fetch in JavaScript.
+Emphasis on the reduction of redundancy and understanding internal details up to specifications.
+Introduction to the internal workings of promises and their role in asynchronous operations.
+17:46 🌐 JavaScript Learning and Building Web Browsers
+
+Encouragement to delve into JavaScript learning, beyond just creating browsers.
+Assuring the audience that learning JavaScript is a guaranteed journey, even if not guided by others.
+A reminder of the significance of revisiting starting points and staying motivated in the learning process.
+18:01 🚀 Reflecting on Efforts and Encouragement
+
+Reflecting on the hard work put into learning JavaScript and the assurance that it will pay off.
+Encouragement to assess progress by sharing achievements and engaging with the learning community.
+Acknowledging that learning is a continuous process, and embracing the challenges along the way.
