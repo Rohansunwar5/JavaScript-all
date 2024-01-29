@@ -23,8 +23,9 @@ createUser.prototype.printMe = function() {
 const chai = new createUser("Chai", 24);
 const tea = new createUser("tea", 200);
 
-chai.increment();
-chai.printMe();
+// chai.increment();
+// chai.printMe();
+
 
 /* 
 here's what happens behind the scenes when the new keyword is used:
