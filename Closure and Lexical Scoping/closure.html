@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Closure and chai</title>
+</head>
+<body>
+  <button id="orange">Orange</button>
+  <button id="green">Green</button>
+
+
+</body>
+<script>
+  // function outer (){
+  //   let username = "Rohan"
+  //   function inner () {
+  //     let secret = 123;
+  //     console.log("Inner", username); // executable
+  //   }
+  //   function inner2 () {
+  //     console.log(secret); // not executable 
+  //     console.log("Inner 2 ", username); // executable
+  //   }
+  //   // the child function can have the acces of parent var but a child cannot acces another child's  private variable on the same execution context  
+  //   inner(); //in case where the inner function wants to acces the variabels of the outer functions  it can do so by calling it 
+  // }
+  // outer()
+  // console.log("Too outer", username);
+  
+
+  // -------------------------------------------------------
+  // function makeFunc(){
+  //   let  name = "mozilla "
+  //   function displayName(){
+  //     console.log(name);
+  //   }
+  //   return displayName; // 
+  // } 
+  // // closure means when we return a whole function, not only the function but its lexical scope also returns 
+
+  // const myFunc = makeFunc()
+  // myFunc();
+
+</script>
+<script>
+  // document.getElementById("orange").onclick = function (){
+  //   document.body.style.backgroundColor = `orange`
+  // }
+  // document.getElementById("green").onclick = function (){
+  //   document.body.style.backgroundColor = `green`
+  // }
+
+  // closure example=> since the click handler returns the child function on onclick the child function has the acces to the color variable as they are returning and not only that but also the entire lixcial scope returns 
+  function clickHandler (color) {
+    // document.body.style.backgroundColor = `${color}`
+    return function(){
+      document.body.style.backgroundColor = `${color}`
+    }
+  }
+  document.getElementById('orange').onclick = clickHandler("orange")
+  document.getElementById('green').onclick = clickHandler("green")
+  
+</script>
+</html>
